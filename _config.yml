@@ -1,0 +1,92 @@
+# Site settings
+email: doctorant.actifs@gmail.com
+baseurl: ""
+# paginate: 1
+# paginate_path: "/blog/page-:num"
+google_analytics: 
+
+# SEO settings
+title: Doctorants Actifs
+description: 
+url: "https://doctorants-actifs.github.io"
+twitter_username: 
+default_img: 
+
+first_published: 2017
+# Profile settings
+name: 
+profile_img: 
+profile: 
+social:
+  github: https://github.com/doctorants-actifs
+
+owner:
+  name: Doctorants Actifs # or company name
+  email: doctorants.actifs@gmail.com
+  url: https://doctorants-actifs.github.io
+# Names
+accueil-text:
+  fr: Acceuil
+  en: Home
+proposition-text:
+  fr: Proposition?
+  en: Proposition?
+a-propos-text:
+  fr: À propos
+  en: About
+s-inscrire-text:
+  fr: S'inscrire
+  en: Subscribe
+archive-text:
+  fr: Archive
+  en: Archive
+se-desinscrire-text:
+  fr: Se déscinscrire
+  en: Unsubscribe
+# Links
+index:
+  fr:
+  en: index-en
+proposition:
+  fr: https://goo.gl/forms/4zN1hc7aJSmvleN22
+  en: https://goo.gl/forms/QdTXv6QUfVvbFUpQ2
+a-propos:
+  fr: /a-propos/
+  en: /a-propos-en/
+s-inscrire:
+  fr: https://goo.gl/forms/Xmmf2N6cSxS2RCsG3
+  en: https://goo.gl/forms/5aEmnSNFfCpilGe22
+se-desinscrire:
+  fr: https://goo.gl/forms/88ing0GM0hndb8Ti2
+  en: https://goo.gl/forms/nCEFGXhMAUIa7lbi2
+archive:
+  fr: /archive/
+  en: /archive-en/
+# Build settings
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
+include: ['_pages', '.htaccess']
+markdown: kramdown
+# permalink: /:year/:month/:day/:title/
+permalink: /:categories/:title.html
+
+defaults:
+  - scope:
+      path: _pages
+    values:
+      layout: page
+      #permalink: /:slug/ # dunna work. See github.com/jekyll/jekyll/issues/2280
+  - scope:
+      path: _posts
+    values:
+      layout: post
+  - scope:
+      path: _drafts
+    values:
+      layout: post
+future: true  # display future posts (as upcoming news)
+# Sass
+sass:
+  style: compressed
+
+# Gems
+gems: [jekyll-paginate, jekyll-sitemap,   octopress-autoprefixer] # ,
