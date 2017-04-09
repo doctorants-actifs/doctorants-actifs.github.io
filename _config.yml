@@ -13,6 +13,9 @@ twitter_username:
 default_img: 
 
 first_published: 2017
+number_members: 20  # number if subscribed members.
+logo: "images/8t.png"
+logopdf: "images/logo8.pdf"
 # Profile settings
 name: 
 profile_img: 
@@ -43,6 +46,9 @@ archive-text:
 se-desinscrire-text:
   fr: Se déscinscrire
   en: Unsubscribe
+back-to-posts-text:
+  fr: Retourner aux posts
+  en: Back to posts
 # Links
 index:
   fr:
@@ -62,6 +68,49 @@ se-desinscrire:
 archive:
   fr: /archive/
   en: /archive-en/
+date-trans:
+  January:
+    en: January
+    fr: Janvier
+  February:
+    en: February
+    fr: Février
+  March:
+    en: March
+    fr: Mars
+  April:
+    en: April
+    fr: Avril
+  May:
+    en: May
+    fr: Mai
+  June:
+    en: June
+    fr: Juin
+  July:
+    en: July
+    fr: Juillet
+  August:
+    en: August
+    fr: Août
+  September:
+    en: September
+    fr: Septembre
+  October:
+    en: October
+    fr: Octobre
+  November:
+    en: November
+    fr: Novembre
+  December:
+    en: December
+    fr: Décembre
+savoir_plus:
+  fr: En savoir +
+  en: Know +
+comment-it:
+  fr: Laisser un avis
+  en: Comment it
 # Build settings
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
 include: ['_pages', '.htaccess']

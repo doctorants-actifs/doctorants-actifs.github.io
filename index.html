@@ -18,46 +18,45 @@ sitemap:
     {% endfor %}
     <div class="previews__container">
       <span>Bienvenue à</span>
-      <h1>{{ site.title }}</h1>
+      <h1 style="text-align: center">{{ site.title }}</h1>
+      <p>
+        
+      </p>
+      <h6 style="text-align: center">Le site dont lequel nous vous proposons des activités sociales.</h6>
+      <h6 style="text-align: center"> Nous sommes ravis d'avoir {{ site.number_members }} inscrits.</h6>
+      <p>
+        
+      </p>
+      <center>
+        <a href="{{ site.url }}/{{ site.logopdf }}"><img src="{{ site.url }}/{{ site.logo }}" alt="Doctorants Actifs Logo" 
+         style="width: 30%; "/></a>
+    </center>
     </div>
   </div>
 
   <div>
-    <!-- <header>
-      <ul class="tabs">
-        <li class="tabs__item">Accueil</li>
-        <li class="tabs__item">À propos</li>
-      </ul>
-    </header> -->
 
     <div class="tab">
-      <ul itemscope itemtype="http://schema.org/Blog">
+      <ul itemscope itemtype="http://schema.org/Blog" style="margin-top: 0em">
         {% assign sorted_postes = site.posts | where:"lang", page.lang %}
         {% for post in sorted_postes %}
         {% if post.options contains "current"%}
           <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-            <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
-              <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url" style="padding-top: 0.05em; padding-bottom: 0.4em;">
+              <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" style="margin-top: 0em">
+                {% assign m = post.date | date: "%B" %}
+                {{ site.date-trans[m][page.lang] }}
+                {{ post.date | date: "%-d, %Y. %H:%M:%S" }}</span>
               <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
-              <p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</p>
-              <span class="preview__more">Read More</span>
+              <p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 40 }}</p>
+              <!-- <span class="preview__more">{{ site.savoir_plus[page.lang] }}</span> -->
+              <span class="preview__more">{{ site.comment-it[page.lang] }}</span>
             </a>
           </li>
           {% endif %}
         {% endfor %}
       </ul>
 
-      <!-- {% if paginator.total_pages > 1 %}
-        <div class="pagination">
-          {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
-          {% endif %}
-
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
-          {% endif %}
-        </div>
-      {% endif %} -->
 {% include footer-{{ page.lang }}.html %}
 <br>
     </div>

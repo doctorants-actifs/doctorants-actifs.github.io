@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Four Dollar Toast"
-date: 2016-09-04
+date: 2016-09-04 09:45:00
 options: nomenu
 ref: four
 categories: 

@@ -2,7 +2,6 @@
 <!-- <h1><a href="{{ site.baseurl }}/{{site.index[page.lang]}}">{{ site.accueil[page.lang] }}</a></h1> -->
 <nav id="nav">
   <ul class="tabs" style="margin-left: 35%; margin-right: -10%">
-      <li class="tabs__item">{% include lang-selector.html %}</li>
           <!-- {%
           assign sorted_pages = site.pages | where:"lang", page.lang | sort: 'key','last' %}{%
           for my_page in sorted_pages %}{%
@@ -16,6 +15,7 @@
     <li class="tabs__item"><a href="{{ site.proposition[page.lang]}}">{{ site.proposition-text[page.lang] }}</a></li>
     <li class="tabs__item"><a href="{{ site.s-inscrire[page.lang]}}">{{ site.s-inscrire-text[page.lang] }}</a></li>
     <li class="tabs__item"><a href="{{ site.a-propos[page.lang]}}">{{ site.a-propos-text[page.lang] }}</a></li>
+    <li class="tabs__item" style="font-size: 14px; ">{% include lang-selector.html %}</li>
     
   </ul>
 </nav>
