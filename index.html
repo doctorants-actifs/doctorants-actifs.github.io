@@ -45,8 +45,9 @@ sitemap:
             <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url" style="padding-top: 0.05em; padding-bottom: 0.4em;">
               <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" style="margin-top: 0em">
                 {% assign m = post.date | date: "%B" %}
+                {{ post.date | date: "%d" }}
                 {{ site.date-trans[m][page.lang] }}
-                {{ post.date | date: "%-d, %Y. %H:%M:%S" }}</span>
+                {{ post.date | date: "%Y. %H:%M:%S" }}</span>
               <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
               <p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 40 }}</p>
               <!-- <span class="preview__more">{{ site.savoir_plus[page.lang] }}</span> -->
