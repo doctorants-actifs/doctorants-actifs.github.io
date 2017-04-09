@@ -22,15 +22,7 @@ sitemap:
       <p>
         
       </p>
-      <h6 style="text-align: center">The website where we provide you social activities to do.</h6>
-      <h6 style="text-align: center"> We are thrilled to have  {{ site.number_members }} subscribers.</h6>
-      <p>
-        
-      </p>
-      <center>
-        <a href="{{ site.url }}/{{ site.logopdf }}"><img src="{{ site.url }}/{{ site.logo }}" alt="Doctorants Actifs Logo" 
-         style="width: 30%; "/></a>
-    </center>
+      {% include infos-{{ page.lang }}.html %}
     </div>
   </div>
 
