@@ -1,0 +1,55 @@
+---
+layout: default
+permalink: /a-propos-en/
+title: À propos
+key: 3
+lang: en
+ref: a-propos
+image: https://unsplash.it/2000/1200?image=1003
+image-sm: https://unsplash.it/500/300?image=1003
+---
+<section class="previews">
+  <div>
+    <figure class="absolute-bg preview__img" style="background-image: url('{{ page.image }}');"></figure>
+    <div class="previews__container">
+      <span>About</span>
+      <h1 style="text-align: center">{{ site.title }}</h1>
+      <p>
+        
+      </p>
+      {% include infos-{{ page.lang }}.html %}
+    </div>
+    
+  </div>
+
+  <div>
+
+    <div class="tab" >
+      <div style="margin-left: 4em">
+        <h4>Why this website?</h4>
+        <p style="margin-left: 3%">
+          We have made this website for the principal purpose to create a social life for the PhD student outside the working time. The proposed activities on our website are based on your suggestions. Please do not hesitate to contact us. We are here for your service.
+        </p>
+        <h4>Territory :</h4>
+        <ul style="list-style-type: circle; margin-left: 6%">
+          <li>INSA de Rouen (Saint-Étienne-du-Rouvray)</li>
+          <li>UFR des Sciences et Techniques (Saint-Étienne-du-Rouvray)</li>
+          <li>CORIA (Saint-Étienne-du-Rouvray)</li>
+          <li>D'autres à venir ...</li>
+        </ul>
+        <h4 >Contact : </h4>  
+        <center>
+        <a style="text-decoration: underline" href="mailto:{{ site.email }}"> {{ site.email }}</a>
+        </center>
+        <h4>Webmaster :</h4>
+        <p style="margin-left: 3%">
+          Soufiane Belharbi : <a style="text-decoration: underline" href="https://sbelharbi.github.io">https://sbelharbi.github.io</a>
+        </p>
+        <!-- <h4 style="display: inline;">Je peux ramener des gens?</h4> Oui. -->
+      </div>
+
+      {% include footer-{{ page.lang }}.html %}
+    </div>
+  </div>
+
+</section>
