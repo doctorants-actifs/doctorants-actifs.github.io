@@ -1,0 +1,12 @@
+{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+{% for post in posts %}
+{% if post.lang != page.lang %}
+    <a href="{{ post.url }}" class="{{ post.lang }}" style="display: inline;" >{{ post.lang }}</a> 
+{% endif %}
+{% endfor %}
+{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+{% for pagex in pages %}
+{% if pagex.lang != page.lang %}
+    <a href="{{ pagex.url }}" title="{{ site.lang-text[pagex.lang] }}">{{ pagex.lang }}</a> 
+{% endif %}
+{% endfor %}

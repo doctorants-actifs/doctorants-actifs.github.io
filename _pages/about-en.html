@@ -1,0 +1,57 @@
+---
+layout: default
+permalink: /a-propos-en/
+title: À propos
+key: 3
+lang: en
+ref: a-propos
+image: https://source.unsplash.com/PiPZ2DHa3rE
+image-sm: https://source.unsplash.com/PiPZ2DHa3rE
+---
+<section class="previews">
+  <div>
+    <figure class="absolute-bg preview__img" style="background-image: url('{{ page.image }}');"></figure>
+    <div class="previews__container">
+      <span>About</span>
+      <h1 style="text-align: center"> {{ site.club }} CLUB</h1>
+      <h3 style="text-align: center">{{ site.title }}</h3>
+      <p>
+        
+      </p>
+      {% include infos-{{ page.lang }}.html %}
+    </div>
+    
+  </div>
+
+  <div>
+
+    <div class="tab" >
+      <div style="margin-left: 4em; margin-right: 3em">
+        <h4>Why this website?</h4>
+        <p style="margin-left: 3%; text-align:justify">
+          We have created the <b>DOC-AC</b> club, on February 03<sup>rd</sup>, 2017, after failing to organize a bowling event through email. We decided to create this club with the main goal in mind to build a social life for the PhD students outside the working time. Activities proposed in this club throughout this website are fed by your proposals. Do not hesitate to contact us for any suggestion. Our club is independent and open for all public.
+        </p>
+        <h4>How does it work?</h4>
+        <p style="margin-left: 3%; text-align:justify">
+          It is easy! You can join our club by <a style="text-decoration: underline;" href="{{ site.url }}{{ site.s-inscrire[page.lang]}}">subscribing</a> to the mailing list using your email address. You will receive a notification email whenver we organize a new event. Generally, we provide a <a href="https://doodle.com" style="text-decoration: underline;">doodle</a> to schedule our events.
+        </p>
+        <h4>Territory :</h4>
+        <ul style="list-style-type: circle; margin-left: 6%">
+          <li>INSA de Rouen (Saint-Étienne-du-Rouvray)</li>
+          <li>UFR des Sciences et Techniques (Saint-Étienne-du-Rouvray)</li>
+          <li>CORIA (Saint-Étienne-du-Rouvray)</li>
+          <li>D'autres à venir ...</li>
+        </ul>
+        <h4 style="display: inline;">Contact : </h4> <a style="text-decoration: underline" href="mailto:{{ site.email }}"> {{ site.email }}</a>
+        <h4>Webmaster :</h4>
+        <p style="margin-left: 3%">
+          Soufiane Belharbi : <a style="text-decoration: underline" href="https://sbelharbi.github.io">https://sbelharbi.github.io</a>
+        </p>
+        <!-- <h4 style="display: inline;">Je peux ramener des gens?</h4> Oui. -->
+      </div>
+
+      {% include footer-{{ page.lang }}.html %}
+    </div>
+  </div>
+
+</section>

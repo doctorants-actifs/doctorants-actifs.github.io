@@ -1,16 +1,62 @@
-<!DOCTYPE html>
-<html>
-<body>
-Hello!
-  
-<p>
-This is our website. It is still under construction.
-  <br>
-  For now, please chech our current site: 
-  <a href="https://sites.google.com/view/doctorants-actifs-en"> English</a>, 
-  <a href="https://sites.google.com/view/doctorants-actifs">Français</a>.
-</p>
-  
-Developers team.
-  </body>
-</html>
+---
+layout: default
+title: Acceuil
+key: 0
+lang: fr
+ref: index
+permalink:
+sitemap:
+  priority: 1.0
+---
+<section class="previews">
+  <div>
+    {% assign sorted_postes=site.posts | where:"lang", page.lang %}
+    {% for post in sorted_postes %}
+    {% if post.options contains "current"%}
+      <figure class="absolute-bg preview__img" style="background-image: url('{{ post.image }}');"></figure>
+      {% endif %}
+    {% endfor %}
+    <div class="previews__container">
+      <span>Bienvenue au</span>
+      <h1 style="text-align: center"> CLUB {{ site.club }}</h1>
+      <h3 style="text-align: center">{{ site.title }}</h3>
+      <p>
+        
+      </p>
+      {% include infos-{{ page.lang }}.html %}
+    </div>
+  </div>
+
+  <div>
+
+    <div class="tab">
+      <ul itemscope itemtype="http://schema.org/Blog" style="margin-top: 0em; margin-left: 2em">
+        {% assign sorted_postes = site.posts | where:"lang", page.lang %}
+        {% for post in sorted_postes %}
+        {% if post.options contains "current"%}
+          <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url" style="padding-top: 0.05em; padding-bottom: 0.4em;">
+              <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" style="margin-top: 0em">
+                {% assign m = post.date | date: "%B" %}
+                {{ post.date | date: "%d" }}
+                {{ site.date-trans[m][page.lang] }}
+                {{ post.date | date: "%Y. %H:%M:%S" }}</span>
+              <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
+              <!-- <span class="preview__more">{{ site.savoir_plus[page.lang] }}</span> -->
+              <!-- <span class="preview__more">{{ site.comment-it[page.lang] }}</span> -->
+            </a>
+            <p class="preview__container" itemprop="description">{{ post.content}}</p>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+
+{% include footer-{{ page.lang }}.html %}
+<br>
+    </div>
+
+    <!-- {% include categories-tab.html %} -->
+
+  </div>
+
+</section>

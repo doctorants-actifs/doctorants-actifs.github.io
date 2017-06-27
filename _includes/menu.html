@@ -1,0 +1,21 @@
+<!-- Menu -->
+<!-- <h1><a href="{{ site.baseurl }}/{{site.index[page.lang]}}">{{ site.accueil[page.lang] }}</a></h1> -->
+<nav id="nav">
+  <ul class="tabs" style="margin-left: 35%; margin-right: -10%">
+          <!-- {%
+          assign sorted_pages = site.pages | where:"lang", page.lang | sort: 'key','last' %}{%
+          for my_page in sorted_pages %}{%
+            if my_page.title %}{%
+              unless my_page.options contains 'nomenu' %}
+          <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>{%
+              endunless %}{%
+            endif %}{%
+          endfor %} -->
+    <li class="tabs__item"><a href="{{ site.url }}/{{ site.index[page.lang]}}">{{ site.accueil-text[page.lang] }}</a></li>
+    <li class="tabs__item"><a href="{{ site.proposition[page.lang]}}">{{ site.proposition-text[page.lang] }}</a></li>
+    <li class="tabs__item"><a href="{{ site.s-inscrire[page.lang]}}">{{ site.s-inscrire-text[page.lang] }}</a></li>
+    <li class="tabs__item"><a href="{{ site.a-propos[page.lang]}}">{{ site.a-propos-text[page.lang] }}</a></li>
+    <li class="tabs__item" style="font-size: 14px; ">{% include lang-selector.html %}</li>
+    
+  </ul>
+</nav>

@@ -1,0 +1,48 @@
+---
+layout: default
+title: Archive
+description: Archive
+permalink: /archive-en/
+title: Archive
+options: nomenu
+lang: en
+ref: archive
+---
+<section class="archives" itemscope itemtype="http://schema.org/Blog">
+  <!-- <a class="nav nav--black" href="{{ site.archive[page.lang] }}">
+    <i class="fa fa-lg fa-arrow-left"></i>
+    <span>{{ site.back-to-posts-text[page.lang] }}</span>
+  </a> -->
+  <header class="archives__header">
+    <span>Archive</span>
+  </header>
+  <div class="section-padding archives__container">
+    {% assign sorted_postes=site.posts | where:"lang", page.lang %}
+    {% for post in sorted_postes %}
+    {% if post.options contains "past"%}
+      <article class="card" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+        <a class="card__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
+          <div class="card__img">
+            {% if post.image-sm %}
+              <figure class="absolute-bg wow" style="background-image: url('{{ post.image-sm }}');"></figure>
+            {% else %}
+              <figure class="absolute-bg wow" style="background-image: url('{{ post.image }}');"></figure>
+            {% endif %}
+          </div>
+          <div class="card__container">
+            <h2 class="card__header" itemprop="name">{{ post.title }}</h2>
+            <p class="card__count" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" style="text-decoration: line-through;">
+              {{ post.date | date: "%b %-d, %Y. %H:%M:%S" }}
+              {% if post.categories.size > 0 %}
+                in {{ post.categories | join: ', ' }}
+              {% endif %}
+            </p>
+            <span class="card__more">{{ site.read-post-text[page.lang] }}</span>
+          </div>
+        </a>
+      </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+  {% include footer-{{ page.lang }}.html %}
+</section>
