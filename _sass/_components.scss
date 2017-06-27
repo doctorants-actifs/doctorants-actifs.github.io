@@ -130,6 +130,9 @@
   &__more {
     @include button-slide();
   }
+  li>a {
+  text-decoration: underline;
+  }
 }
 
 /**

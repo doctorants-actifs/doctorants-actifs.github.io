@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Bar"
+date: 2017-02-10 21:30:00
+options: nomenu, past
+lang: fr
+ref: bar10022017
+description: 
+image: https://source.unsplash.com/8x_fFNrmeDk
+image-sm: https://source.unsplash.com/8x_fFNrmeDk
+---
+<ul>
+<li>
+<h4 style="display: inline;">Bar ~ 22:00</h4>
+  a <a href="http://www.latavernedethor.com/"> <b>La Taverne De Thor.</b></a>
+  <br>
+  @ : <a href="https://goo.gl/maps/4J5XnjXYebB2"> <i>2 quai Pierre Corneille - 76000 Rouen.</i></a>
+</li>
+<li>
+<h4 style="display: inline;">Doodle</h4> : <a href="http://doodle.com/poll/6s47zybhwcut9c6f"> <i>J'y vais.</i></a>
+</li>
+</ul>

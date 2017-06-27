@@ -19,6 +19,7 @@ ref: archive
   <div class="section-padding archives__container">
     {% assign sorted_postes=site.posts | where:"lang", page.lang %}
     {% for post in sorted_postes %}
+    {% if post.options contains "past"%}
       <article class="card" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
         <a class="card__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
           <div class="card__img">
@@ -30,16 +31,17 @@ ref: archive
           </div>
           <div class="card__container">
             <h2 class="card__header" itemprop="name">{{ post.title }}</h2>
-            <p class="card__count" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">
-              {{ post.date | date: "%b %-d, %Y" }}
+            <p class="card__count" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" style="text-decoration: line-through;">
+              {{ post.date | date: "%b %-d, %Y. %H:%M:%S" }}
               {% if post.categories.size > 0 %}
                 in {{ post.categories | join: ', ' }}
               {% endif %}
             </p>
-            <span class="card__more">Read Post</span>
+            <span class="card__more">{{ site.read-post-text[page.lang] }}</span>
           </div>
         </a>
       </article>
+      {% endif %}
     {% endfor %}
   </div>
   {% include footer-{{ page.lang }}.html %}

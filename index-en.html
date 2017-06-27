@@ -18,7 +18,8 @@ sitemap:
     {% endfor %}
     <div class="previews__container">
       <span>Welcome to</span>
-      <h1 style="text-align: center">{{ site.title }}</h1>
+      <h1 style="text-align: center">{{ site.club }} CLUB</h1>
+      <h3 style="text-align: center">{{ site.title }}</h3>
       <p>
         
       </p>
@@ -35,7 +36,7 @@ sitemap:
     </header> -->
 
     <div class="tab">
-      <ul itemscope itemtype="http://schema.org/Blog">
+      <ul itemscope itemtype="http://schema.org/Blog" style="margin-top: 0em; margin-left: 2em">
         {% assign sorted_postes = site.posts | where:"lang", page.lang %}
         {% for post in sorted_postes %}
         {% if post.options contains "current"%}
@@ -46,10 +47,11 @@ sitemap:
               {{ site.date-trans[m][page.lang] }}
               {{ post.date | date: "%d, %Y. %H:%M:%S" }}</span>
             <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
-            <p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 40 }}</p>
+            
             <!-- <span class="preview__more">{{ site.savoir_plus[page.lang] }}</span> -->
-            <span class="preview__more">{{ site.comment-it[page.lang] }}</span>
+            <!-- <span class="preview__more">{{ site.comment-it[page.lang] }}</span> -->
           </a>
+          <p class="preview__container" itemprop="description">{{ post.content }}</p>
         </li>
           {% endif %}
         {% endfor %}

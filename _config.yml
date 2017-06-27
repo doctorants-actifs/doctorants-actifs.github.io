@@ -7,15 +7,17 @@ google_analytics:
 
 # SEO settings
 title: Doctorants Actifs
+club: DOC-AC
 description: 
 url: "https://doctorants-actifs.github.io"
 twitter_username: 
 default_img: 
+lang: fr  # the default langauge.
 
 first_published: 2017
-number_members: 20  # number if subscribed members.
-logo: "images/8t.png"
-logopdf: "images/logo8.pdf"
+number_members: 23  # number if subscribed members.
+logo: "images/8hrb.png"
+logopdf: "images/8-new.pdf"
 # Profile settings
 name: 
 profile_img: 
@@ -49,6 +51,9 @@ se-desinscrire-text:
 back-to-posts-text:
   fr: Retourner aux posts
   en: Back to posts
+read-post-text:
+  fr: Lire le post
+  en: Read post
 # Links
 index:
   fr:
@@ -116,7 +121,7 @@ exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
 include: ['_pages', '.htaccess']
 markdown: kramdown
 # permalink: /:year/:month/:day/:title/
-permalink: /:categories/:title.html
+permalink: /:year-:month-:day-:title.html
 
 defaults:
   - scope:

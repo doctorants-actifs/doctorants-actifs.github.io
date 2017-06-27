@@ -5,15 +5,16 @@ title: À propos
 key: 3
 lang: fr
 ref: a-propos
-image: https://unsplash.it/2000/1200?image=1003
-image-sm: https://unsplash.it/500/300?image=1003
+image: https://source.unsplash.com/PiPZ2DHa3rE
+image-sm: https://source.unsplash.com/PiPZ2DHa3rE
 ---
 <section class="previews">
   <div>
     <figure class="absolute-bg preview__img" style="background-image: url('{{ page.image }}');"></figure>
     <div class="previews__container">
-      <span>À propos</span>
-      <h1 style="text-align: center">{{ site.title }}</h1>
+      <span>À propos du</span>
+      <h1 style="text-align: center"> CLUB {{ site.club }}</h1>
+      <h3 style="text-align: center">{{ site.title }}</h3>
       <p>
         
       </p>
@@ -25,10 +26,14 @@ image-sm: https://unsplash.it/500/300?image=1003
   <div>
 
     <div class="tab" >
-      <div style="margin-left: 4em">
-        <h4>Pourquoi ce site?</h4>
-        <p style="margin-left: 3%">
-          Nous avons créé ce site dans l'objectif principal de créer une vie sociale pour les doctorants en dehors des heures de travail. Les activités proposées sur notre site sont nourries par vos propositions. N'hésitez pas à nous contacter. Nous sommes à votre écoute.
+      <div style="margin-left: 4em; margin-right: 3em">
+        <h4>Pourquoi ce club?</h4>
+        <p style="margin-left: 3%; text-align:justify">
+          Nous avons créé le club <b>DOC-AC</b>, le 03 Février 2017, suite à un échec d'organisation d'une sortie de bowling via le mail. Nous avons décidé de mettre en place ce club dans l'objectif principal de créer une vie sociale pour les doctorants en dehors des heures de travail. Les activités proposées dans ce club via ce site sont nourries par vos propositions. N'hésitez pas à nous contacter. Nous sommes à votre écoute. Notre club est indépendant et ouvert à tout le public.
+        </p>
+        <h4>Comment ça marche?</h4>
+        <p style="margin-left: 3%; text-align:justify">
+          C'est facile! Vous pouvez rejoindre notre club en vous inscrivant à la liste de diffusion en fournissant votre adresse mail. Vous recevrez par la suite un e-mail de notification à chaque fois nous organisons un nouveau événement. En général, nous mettrons un <a href="https://doodle.com" style="text-decoration: underline;">doodle</a> pour planifier nos événements.
         </p>
         <h4>Périmètre :</h4>
         <ul style="list-style-type: circle; margin-left: 6%">
@@ -37,10 +42,8 @@ image-sm: https://unsplash.it/500/300?image=1003
           <li>CORIA (Saint-Étienne-du-Rouvray)</li>
           <li>D'autres à venir ...</li>
         </ul>
-        <h4 >Contact : </h4>  
-        <center>
+        <h4 style="display: inline;" >Contact : </h4>  
         <a style="text-decoration: underline" href="mailto:{{ site.email }}"> {{ site.email }}</a>
-        </center>
         <h4>Administrateur :</h4>
         <p style="margin-left: 3%">
           Soufiane Belharbi : <a style="text-decoration: underline" href="https://sbelharbi.github.io">https://sbelharbi.github.io</a>

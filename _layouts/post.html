@@ -5,13 +5,13 @@ options: nomenu
 <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="section-padding--lg mast rellax" data-rellax-speed="-4">
-    <a class="nav nav--white" href="{{ site.archive[page.lang] }}">
+    <a class="nav nav--white" href="{{ site.url }}/{{ site.index[page.lang]}}">
       <i class="fa fa-lg fa-arrow-left"></i>
-      <span>{{ site.back-to-posts-text[page.lang] }}</span>
+      <span>{{ site.accueil-text[page.lang] }}</span>
     </a>
     <figure class="absolute-bg mast__img" style="background-image: url('{{ page.image }}');"></figure>
     <div class="mast__container">
-      <span><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span>
+      <span><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y. %H:%M:%S" }}</time></span>
       <h1 itemprop="name headline">{{ page.title }}</h1>
       {% if page.categories.size > 0 %}
         <span>Posted in 
@@ -33,7 +33,7 @@ options: nomenu
   <section class="profile">
     <div class="profile__card">
       <div class="profile__img">
-        <figure class="absolute-bg" style="background-image: url('{{ site.profile_img }}');"></figure>
+        <figure class="absolute-bg" style="background-image: url('{{ page.image-sm }}');"></figure>
       </div>
       <div class="profile__container">
         <p>{{ site.profile }}</p>
@@ -50,10 +50,13 @@ options: nomenu
       </div>
     </div>
   </section>
-
 </article>
-
-{% if page.previous.url %}
+{% if page.lang %}
+{% include footer-{{ page.lang }}.html %}
+{% else %}
+{% include footer-{{ site.lang }}.html %}
+{% endif %}
+<!-- {% if page.previous.url %}
   <section class="next">
     <a class="next__link" href="{{page.previous.url | prepend: site.baseurl }}" style="background-image: url('{{ page.previous.image }}');">
       <div class="next__container">
@@ -62,4 +65,4 @@ options: nomenu
       </div>
     </a>
   </section>
-{% endif %}
+{% endif %} -->
