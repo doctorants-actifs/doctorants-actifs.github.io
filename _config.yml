@@ -6,9 +6,10 @@ baseurl: ""
 google_analytics: 
 
 # SEO settings
-title: Doctorants Actifs
+title: Club Doctorants Actifs
+part-title: Doctorants Actifs
 club: DOC-AC
-description: 
+description: Club Doctorants Actifs Rouen France
 url: "https://doctorants-actifs.github.io"
 twitter_username: 
 default_img: 
@@ -26,7 +27,7 @@ social:
   github: https://github.com/doctorants-actifs
 
 owner:
-  name: Doctorants Actifs # or company name
+  name: Club Doctorants Actifs # or company name
   email: doctorants.actifs@gmail.com
   url: https://doctorants-actifs.github.io
 # Names
