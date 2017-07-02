@@ -42,7 +42,9 @@ sitemap:
         {% if post.options contains "current"%}
         <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
           <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url" style="padding-top: 0.05em; padding-bottom: 0.4em;">
-            {% if page.options contains "joker" %}
+            {% if post.options contains "joker" %}
+            
+            {% else %}
             <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" style="margin-top: 0em">
               {% assign m = post.date | date: "%B" %}
               {{ site.date-trans[m][page.lang] }}
