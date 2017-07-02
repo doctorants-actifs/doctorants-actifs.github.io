@@ -2,7 +2,7 @@
 layout: post
 title: "Pizza &amp; bowling"
 date: 2017-07-01 19:00:00
-options: nomenu, current
+options: nomenu
 lang: en
 ref: zza01072017
 description: 
