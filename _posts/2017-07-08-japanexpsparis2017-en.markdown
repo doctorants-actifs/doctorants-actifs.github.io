@@ -19,7 +19,7 @@ We invite you to discover the Japanese culture through  **JAPAN EXPO** an exhibi
   
 <li> <h4 style="display: inline;"> Ticketing (online presale) <font color="red"> !!! Last day: today Jully 05<sup>th</sup> at 23h59</font></h4>. Otherwise, you will have to get in line at 10h00. <a href="http://www.japan-expo-paris.com/en/ticketing/JEP2017">Ticketing</a>.</li>
 
-<li><h4 style="display: inline;">Program </h4>: <a href="http://www.japan-expo-paris.com/fr/programme/2017-07-08">Samedi 08 Juillet.</a>
+<li><h4 style="display: inline;">Program </h4>: <a href="http://www.japan-expo-paris.com/fr/programme/2017-07-08">July, Saturday 08 <sup>th</sup>.</a>
 </li>
 <li>
 <h4 style="display: inline;">Doodle</h4>: <a href="https://doodle.com/poll/dpgvfhzxva7ixepr"> <i>I'll be there.</i></a>
