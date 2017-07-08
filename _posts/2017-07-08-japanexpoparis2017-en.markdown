@@ -2,7 +2,7 @@
 layout: post
 title: "Japan Expo Paris 2017"
 date: 2017-07-08 09:00:00
-options: nomenu, current
+options: nomenu, past
 lang: en
 ref: japanexpoparis20170807
 description: 
@@ -25,4 +25,10 @@ We invite you to discover the Japanese culture through  **JAPAN EXPO** an exhibi
 <h4 style="display: inline;">Doodle</h4>: <a href="https://doodle.com/poll/dpgvfhzxva7ixepr"> <i>I'll be there.</i></a>
 </li>
 <li><i>If you go in car, carpooling will be wonderful!!</i> </li>
+<li>
+<h4 style="display: inline;">Cosplay</h4>: <a href="https://drive.google.com/drive/folders/0B9oI0eXJPpbtMjlBUGZlckMyRzg?usp=sharing"> <i>Pictures.</i></a>
+</li>
+<li>
+<h4 style="display: inline;">Shamisen</h4>: <a href="https://en.wikipedia.org/wiki/Shamisen"> <i>Wiki</i></a>. <a href="https://drive.google.com/drive/folders/0B9oI0eXJPpbtZTM1dUJ4WXF3dW8?usp=sharing"> <i>Live.</i></a> <a href="https://www.youtube.com/watch?v=wx8BVGHMiC0"> <i>Pro1</i></a>. <a href="https://www.youtube.com/watch?v=w8sGJ2hR4Wc"> <i>Pro2</i></a>.
+</li>
 </ul>

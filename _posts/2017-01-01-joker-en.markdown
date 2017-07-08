@@ -2,11 +2,11 @@
 layout: post
 title: "Working"
 date: 2017-01-01 00:00:00
-options: nomenu, joker
+options: nomenu, joker, current
 lang: en
 ref: joker01012017
 description: 
-image: https://source.unsplash.com/E_8Zk_hfpcE 
-image-sm: https://source.unsplash.com/E_8Zk_hfpcE
+image: https://source.unsplash.com/1qkyck-UL3g
+image-sm: https://source.unsplash.com/1qkyck-UL3g
 ---
 Working.
