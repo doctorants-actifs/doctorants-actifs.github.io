@@ -35,6 +35,6 @@ Nous vous invitons à une session de **1 heure de jogging** pour ce Samedi.
 <h4 style="display: inline;">Doodle</h4> : <a href="https://doodle.com/poll/xb9nmnswyaza3my7"> <i>J'y vais.</i></a>
 </li>
 <li>
-<b><font color="red">Éviter de courir dans les montées/descentes en venant au complexe. Il y a un grand risque de se blesser.</font></b>
+<b><font color="red">Éviter de courir dans les montées/descentes en venant au complexe. Il y a un grand risque de se faire blesser.</font></b>
 </li>
 </ul>
