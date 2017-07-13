@@ -35,6 +35,6 @@ We invite you for a session of **1 heure of jogging** this Saturday.
 <h4 style="display: inline;">Doodle</h4>: <a href="https://doodle.com/poll/xb9nmnswyaza3my7"> <i>I'll be there.</i></a>
 </li>
 <li>
-<font color="red">**Avoid running uphill/downhill in the way to the complex. High risk of injury.**</font>
+<b><font color="red">Avoid running uphill/downhill in the way to the complex. High risk of injury.</font></b>
 </li>
 </ul>
