@@ -9,7 +9,7 @@ description:
 image: https://source.unsplash.com/5rKPeFcsSTY
 image-sm: https://source.unsplash.com/5rKPeFcsSTY
 ---
-We invite you for a session of **1 heure of jogging** this Saturday.
+We invite you for a session of **1 hour of jogging** this Saturday.
 
 <ul>
 <li> <h4 style="display: inline;">Jogging, 18h00-19h00.</h4>
