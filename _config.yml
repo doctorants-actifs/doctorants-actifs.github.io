@@ -16,7 +16,7 @@ default_img:
 lang: fr  # the default langauge.
 
 first_published: 2017
-number_members: 27  # number if subscribed members.
+number_members: 28  # number if subscribed members.
 logo: "images/8hrb.png"
 logopdf: "images/8-new.pdf"
 # Profile settings
