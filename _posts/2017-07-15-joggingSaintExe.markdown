@@ -2,7 +2,7 @@
 layout: post
 title: "1h Jogging"
 date: 2017-07-15 18:00:00
-options: nomenu, current
+options: nomenu, past
 lang: fr
 ref: jogging20171507
 description: 
