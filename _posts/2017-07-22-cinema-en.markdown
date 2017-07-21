@@ -18,7 +18,7 @@ image-sm: "/images/dunkirk.jpg"
 
 <li><h4 style="display: inline;">Cinema (history): 21h55 </h4>:
 <ol style="padding-left: 4em;">
-<li> <b>Title</b>: Dunkirk. (<font color="red">English subtitled</font>)
+<li> <b>Title</b>: Dunkirk. (<font color="red">in English subtitled</font>)
 </li>
 <li><b> Trailer</b>: <br>
 <iframe width="460" height="215" src="https://www.youtube.com/embed/S5QBye6-ToM" frameborder="0" allowfullscreen></iframe>
