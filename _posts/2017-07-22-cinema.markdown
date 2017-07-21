@@ -1,0 +1,46 @@
+---
+layout: post
+title: "Cinéma : Dunkirk."
+date: 2017-07-22 18:00:00
+options: nomenu, current
+lang: fr
+ref: cinema20172207
+description: 
+image: "/images/dunkirk.jpg"
+image-sm: "/images/dunkirk.jpg"
+---
+<i>Au début de la Seconde Guerre mondiale, en mai 1940, environ 400 000 soldats britanniques, canadiens, français et belges se retrouvent encerclés par les troupes allemandes dans la poche de Dunkerque. L'Opération Dynamo est mise en place pour évacuer le Corps expéditionnaire britannique (CEB) vers l'Angleterre.</i>
+
+<i>L'histoire s'intéresse aux destins croisés des soldats, pilotes, marins et civils anglais durant l'Opération Dynamo. Alors que le CEB est évacué par le port et les plages de Dunkerque, trois soldats britanniques, avec un peu d'ingéniosité et de chance, arrivent à embarquer sous les bombardements. Un périple bien plus grand les attend : la traversée du détroit du Pas de Calais. <a href="https://fr.wikipedia.org/wiki/Dunkerque_(film,_2017)" style="text-decoration: underline;">(Wiki).</a></i>
+
+<ul>
+<li> <h4 style="display: inline;">Resto italien à 20:00</h4> chez <a href="http://www.lapastatinto.com/"><i> La Pasta Tinto.</i></a>
+  <br>
+  @ : <a href="https://goo.gl/maps/V7AHbfaPtLw"><i>4 Rue Alsace Lorraine, 76000 Rouen.</i></a></li>
+
+<li><h4 style="display: inline;">Cinéma (histoire) : 21h55 </h4>:
+<ol style="padding-left: 4em;">
+<li> <b>Titre</b> : Dunkirk. (<font color="red">en Anglais sous-titré</font>)
+</li>
+<li><b> Trailer </b>: <br>
+<iframe width="460" height="215" src="https://www.youtube.com/embed/S5QBye6-ToM" frameborder="0" allowfullscreen></iframe>
+</li>
+<li><b>Durée</b> : 1h47.
+</li>
+<li><b>Genre</b> : Guerre.
+</li>
+<li><b>Cinéma</b> : <a href="http://www.omnia-cinemas.com/">Omnia</a>.
+</li>
+<li> <b>@</b> : <a href="https://goo.gl/maps/1jsAeRAVrnA2"><i>28 Rue de la République, 76000 Rouen.</i></a>
+</li>
+<li> <font color="red"><b> Acheter son billet (étudiant: raméner sa carte d'étudiant.)</b> </font> : <a href="https://www.omnia-cinemas.com/reserver/F117054/D1500753300/VO/?sec=VxFC52"> Ici.</a>
+</li>
+</ol>
+</li>
+<li>
+<h4 style="display: inline;">Doodle</h4> : <a href="https://doodle.com/poll/95w948b39rte3i9u"> <i>J'y vais.</i></a>
+</li>
+<li>
+<b><font color="red">Avertissement : <i>Les films sont faits pour des raisons commerciales. Ils ne sont pas une source fiable pour apprendre l'histoire.</i></font></b>
+</li>
+</ul>
