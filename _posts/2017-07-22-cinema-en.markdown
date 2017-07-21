@@ -36,9 +36,9 @@ image-sm: "/images/dunkirk.jpg"
 </ol>
 </li>
 <li>
-<h4 style="display: inline;">Doodle</h4> : <a href="https://doodle.com/poll/95w948b39rte3i9u"> <i>I'll be there.</i></a>
+<h4 style="display: inline;">Doodle</h4>: <a href="https://doodle.com/poll/95w948b39rte3i9u"> <i>I'll be there.</i></a>
 </li>
 <li>
-<b><font color="red">Warning : <i>Movies are made for commercial reasons. They are not a reliable source for learning history.</i></font></b>
+<b><font color="red">Warning: <i>Movies are made for commercial reasons. They are not a reliable source for learning history.</i></font></b>
 </li>
 </ul>
