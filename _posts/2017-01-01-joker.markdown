@@ -2,11 +2,11 @@
 layout: post
 title: "Boulot"
 date: 2017-01-01 00:00:00
-options: nomenu, joker
+options: nomenu, joker, current
 lang: fr
 ref: joker01012017
 description: 
-image: https://source.unsplash.com/6vjJZYYIiBw
-image-sm: https://source.unsplash.com/6vjJZYYIiBw
+image: https://source.unsplash.com/pkm3lLY2kRU
+image-sm: https://source.unsplash.com/pkm3lLY2kRU
 ---
 Boulot.
