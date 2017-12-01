@@ -15,7 +15,7 @@ image-sm: "/images/indoorkarting.jpg"
   <br>
   @ : <a href="https://goo.gl/maps/udGGMusui212"><i>149-169 chemin de croisset, 76000, Rouen.</i></a></li>
 
-<li><h4 style="display: inline;">2 rounds, 7mins/round,  7euros/round.</h4>
+<li><h4 style="display: inline;">2 rounds, 7mins/round,  12euros/round.</h4>
 </li>
 <li><h4 style="display: inline;">Next: Bar at Rouen.</h4>
 </li>
