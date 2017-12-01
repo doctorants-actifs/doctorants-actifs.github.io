@@ -16,9 +16,10 @@ default_img:
 lang: fr  # the default langauge.
 
 first_published: 2017
-number_members: 28  # number if subscribed members.
+number_members: 30  # number if subscribed members.
 logo: "images/8hrb.png"
 logopdf: "images/8-new.pdf"
+admin: "images/admin.jpg"
 # Profile settings
 name: 
 profile_img: 
@@ -44,8 +45,8 @@ s-inscrire-text:
   fr: S'inscrire
   en: Subscribe
 archive-text:
-  fr: Archive
-  en: Archive
+  fr: Historique
+  en: History
 se-desinscrire-text:
   fr: Se déscinscrire
   en: Unsubscribe
