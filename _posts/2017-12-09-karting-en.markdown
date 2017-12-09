@@ -2,7 +2,7 @@
 layout: post
 title: "Indoor Karting"
 date: 2017-12-09 15:00:00
-options: nomenu, current
+options: nomenu, past
 lang: en
 ref: kartingindoor20170912
 description: 
