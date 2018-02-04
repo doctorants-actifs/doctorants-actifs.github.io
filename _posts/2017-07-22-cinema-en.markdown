@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cinema : Dunkirk."
+title: "Cinema: Dunkirk."
 date: 2017-07-22 20:00:00
 options: nomenu, past
 lang: en
