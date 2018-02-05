@@ -36,8 +36,8 @@ Vous ne serez pas les seuls, vous allez trouver beaucoup de monde au stade le Sa
 
 <li><h5 style="display: inline;">Programme </h5>:
 <ol style="padding-left: 4em;">
-<li>9h15-10h55 : Course.</li>
-<li>10h55-10h55 : Refroidissement.</li>
+<li>9h15-10h45 : Course.</li>
+<li>10h45-10h55 : Refroidissement.</li>
 <li>10h55-11h10 : Étirement.</li>
 </ol>
 </li>

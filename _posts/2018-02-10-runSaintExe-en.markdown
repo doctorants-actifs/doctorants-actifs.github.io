@@ -37,8 +37,8 @@ You will not be alone, you will find many people at the stadium on Saturday morn
 
 <li> <h5 style = "display: inline;"> Program</h5>:
 <ol style = "padding-left: 4em;">
-<li> 9h15-10h55: Running. </li>
-<li> 10: 45-10h55: Cooling-down. </li>
+<li> 9h15-10h45: Running. </li>
+<li> 10h45-10h55: Cooling-down. </li>
 <li> 10h55-11h10: Stretching. </li>
 </ol>
 </li>
