@@ -46,7 +46,7 @@ You will not be alone, you will find many people at the stadium on Saturday morn
 <h5 style = "display: inline;"> Objective</h5>: <i> <font color = "red"> Work your cardio + manage your energy. It is not important to go fast. We will be running in average speed (~jogging) targeting endurance through safe and injury-free steps. </font> </i>
 </li>
 <li>
-<h5 style = "display: inline;"> Doodle</h5>:<a href="https://doodle.com/poll/dikqvgerna5rwh5p"> <i> I'll be there. </i> </a>
+<h5 style = "display: inline;"> Doodle</h5>:<a href="https://doodle.com/poll/dikqvgerna5rwh4p"> <i> I'll be there. </i> </a>
 </li>
 <li>
 <h5 style = "display: inline;"> Recommendations</h5>:

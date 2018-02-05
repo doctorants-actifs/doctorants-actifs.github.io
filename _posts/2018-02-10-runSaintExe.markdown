@@ -45,7 +45,7 @@ Vous ne serez pas les seuls, vous allez trouver beaucoup de monde au stade le Sa
 <h5 style="display: inline;">Objectif</h5> : <i><font color="red">Travailler son cardio + gérer son énergie. Ce n'est important d'aller vite. Nous allons plutôt travailler l’endurance avec une vitesse moyenne (~jogging) avec des petits pas pour éviter les blessures.</font></i>
 </li>
 <li>
-<h5 style="display: inline;">Doodle</h5> : <a href="https://doodle.com/poll/dikqvgerna5rwh5p"> <i>J'y vais.</i></a>
+<h5 style="display: inline;">Doodle</h5> : <a href="https://doodle.com/poll/dikqvgerna5rwh4p"> <i>J'y vais.</i></a>
 </li>
 <li>
 <h5 style="display: inline;">Recommendations</h5> :
