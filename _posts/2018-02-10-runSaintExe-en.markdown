@@ -2,7 +2,7 @@
 layout: post
 title: "1h30m Running"
 date: 2018-02-10 09:15:00
-options: nomenu, current
+options: nomenu, past
 lang: en
 ref: run20181002
 description: 

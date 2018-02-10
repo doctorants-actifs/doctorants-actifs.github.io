@@ -1,23 +1,11 @@
 ---
 layout: post
-title: "Working"
+title: "At work."
 date: 2017-01-01 00:00:00
-options: nomenu, joker
+options: nomenu, joker, current
 lang: en
 ref: joker01012017
 description: 
-image: https://source.unsplash.com/ibpzzTR3VxY
-image-sm: https://source.unsplash.com/ibpzzTR3VxY
+image: https://source.unsplash.com/J67BWDuNq0U
+image-sm: https://source.unsplash.com/J67BWDuNq0U
 ---
-Working,
-<br>
-Working,
-<br>
-Working,
-<br>
-.
-<br>
-.
-<br>
-.
-<br>
